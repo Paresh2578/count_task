@@ -43,8 +43,8 @@ function App() {
                 totalSeconds--;
 
                 if (totalSeconds < 0) {
-                    clearInterval(countdown.current); // Clear interval if time is up
-                    return { h: 0, m: 0, s: 0 }; // Reset timer when it reaches zero
+                    clearInterval(countdown.current); 
+                    return { h: 0, m: 0, s: 0 }; 
                 }
 
                 h = Math.floor(totalSeconds / 3600);
